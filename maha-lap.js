@@ -28,8 +28,15 @@ class MahaLap {
 
   static tamnaiWithStory(Story) {
     const length = Story.length;
-    if (length == 2) {
-      return 2;
+    let sum = 0;
+    for (var i = 1; i <= length; i++) {
+      sum += i;
+    }
+    switch (sum) {
+      case 3:
+        return sum;
+      default:
+        return 99;
     }
   }
 }
