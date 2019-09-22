@@ -7,6 +7,21 @@ class MahaLap {
       case "จันทร์":
         return 2;
         break;
+      case "อังคาร":
+        return 2;
+        break;
+      case "พุธ":
+        return 2;
+        break;
+      case "พฤหัสบดี":
+        return 2;
+        break;
+      case "ศุกร์":
+        return 2;
+        break;
+      case "เสาร์":
+        return 2;
+        break;
     }
   }
 }
