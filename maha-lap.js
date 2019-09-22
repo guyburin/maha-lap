@@ -35,6 +35,8 @@ class MahaLap {
     switch (sum) {
       case 3:
         return sum;
+      case 6:
+        return sum;
       default:
         return 99;
     }

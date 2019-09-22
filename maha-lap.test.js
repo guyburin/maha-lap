@@ -45,8 +45,12 @@ describe("Test Maha-Lap", () => {
     const result = MahaLap.tamnaiWithDay("Not have a day");
     expect(result).toEqual(99);
   });
-  test("Test Tamnai with story: Not have a day", () => {
+  test("Test Tamnai with story: Snack", () => {
     const result = MahaLap.tamnaiWithStory("งู");
     expect(result).toEqual(3);
+  });
+  test("Test Tamnai with story: fish", () => {
+    const result = MahaLap.tamnaiWithStory("ปลา");
+    expect(result).toEqual(6);
   });
 });
