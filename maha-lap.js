@@ -22,7 +22,7 @@ class MahaLap {
       case "คริสมาสต์":
         return 25;
       default:
-        return "Not have a day";
+        return 99;
     }
   }
 }
