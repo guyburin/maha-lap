@@ -53,4 +53,8 @@ describe("Test Maha-Lap", () => {
     const result = MahaLap.tamnaiWithStory("ปลา");
     expect(result).toEqual(6);
   });
+  test("Test Tamnai with story: fish", () => {
+    const result = MahaLap.tamnaiWithStory("ควาย");
+    expect(result).toEqual(10);
+  });
 });
