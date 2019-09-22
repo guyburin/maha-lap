@@ -89,4 +89,16 @@ describe("Test Maha-Lap", () => {
         const result = MahaLap.tamnaiWithTime("กลางคืน");
         expect(result).toEqual(0.5);
     });
+
+    test("Test Namo With ฝันวันจันทร์ เห็นงู ตอนกลางวัน", () => {
+        global.Math.random = jest.fn(() => 0.64);
+        const result = MahaLap.namo("จันทร์", "งู", "กลางวัน"); //  2 3 0.98
+        expect(result).toEqual(960);
+    });
+
+    test("Test Namo With ฝันวันฮาโลวีน เห็นงูเขียวหางไหม้ ตอนกลางคืน", () => {
+        global.Math.random = jest.fn(() => 0.44);
+        const result = MahaLap.namo("เสาร์", "งูเขียวหางไหม้", "กลางคืน"); //((31 / 2) * (105 / 2) * (0.44)) * 100;
+        expect(result).toEqual(8085);
+    });
 });

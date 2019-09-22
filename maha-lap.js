@@ -67,6 +67,17 @@ class MahaLap {
         }
 
     }
+
+    static namo(day, story, time) {
+        const resultDay = this.tamnaiWithDay(day);
+        const resultStory = this.tamnaiWithStory(story);
+        const resulttime = this.tamnaiWithTime(time);
+        var namo = ((resultDay / 2) * (resultStory / 2) * (resulttime)) * 100;
+        if (99 > namo) {
+            return namo * 10;
+        }
+        return Math.ceil(namo);
+    }
 }
 
 module.exports = MahaLap;
