@@ -5,4 +5,8 @@ describe("Test Maha-Lap", () => {
     const result = MahaLap.tamnaiWithDay("จันทร์");
     expect(result).toEqual(2);
   });
+  test("Test Tamnai with day", () => {
+    const result = MahaLap.tamnaiWithDay("อาทิตย์");
+    expect(result).toEqual(1);
+  });
 });

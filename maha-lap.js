@@ -1,6 +1,13 @@
 class MahaLap {
   static tamnaiWithDay(day) {
-    return 2;
+    switch (day) {
+      case "อาทิตย์":
+        return 1;
+        break;
+      case "จันทร์":
+        return 2;
+        break;
+    }
   }
 }
 
