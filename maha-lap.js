@@ -22,6 +22,15 @@ class MahaLap {
       case "เสาร์":
         return 7;
         break;
+      case "สงกรานต์":
+        return 13;
+        break;
+      case "ฮาโลวีน":
+        return 31;
+        break;
+      case "คริสมาสต์":
+        return 25;
+        break;
     }
   }
 }
