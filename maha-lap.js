@@ -39,6 +39,10 @@ class MahaLap {
         return sum;
       case 10:
         return sum;
+      case 105:
+        return sum;
+      case 21:
+        return sum;
       default:
         return 99;
     }
