@@ -8,19 +8,19 @@ class MahaLap {
         return 2;
         break;
       case "อังคาร":
-        return 2;
+        return 3;
         break;
       case "พุธ":
-        return 2;
+        return 4;
         break;
       case "พฤหัสบดี":
-        return 2;
+        return 5;
         break;
       case "ศุกร์":
-        return 2;
+        return 6;
         break;
       case "เสาร์":
-        return 2;
+        return 7;
         break;
     }
   }
