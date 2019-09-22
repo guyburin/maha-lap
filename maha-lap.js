@@ -21,6 +21,8 @@ class MahaLap {
         return 31;
       case "คริสมาสต์":
         return 25;
+      default:
+        return "Not have a day";
     }
   }
 }
